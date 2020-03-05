@@ -1,0 +1,221 @@
+.offer
+  background: url("../img/bg.jpg") no-repeat center / cover
+  .btn
+    margin: 0 auto
+  &-row
+    display: flex
+    justify-content: space-between
+    position: relative
+    padding-bottom: 125px
+    img
+      position: absolute
+      z-index: 0
+      pointer-events: none
+  &-side
+    position: relative
+    z-index: 1
+  &-img
+    &_one
+      bottom: 0
+      right: 227px
+    &_two
+      bottom: -53px
+      left: 50%
+      transform: translateX(-50%)
+    &_tree
+      bottom: -142px
+      left: calc(50% + 130px)
+      transform: translateX(-50%)
+.form
+  box-shadow: 2px 9px 43px rgba(105, 132, 194, 0.32)
+  border-radius: 4px
+  background-color: #ffffff
+  max-width: 270px
+  width: 100%
+  padding: 25px 25px 40px 25px
+  &-row
+    display: flex
+    justify-content: space-between
+    margin: 20px 0 15px
+.price
+  &:first-child
+    border-right: 1px solid rgba(#c0dfea, 0.6)
+    padding-right: 17px
+    margin-right: 12px
+  &-new
+    color: #30302f
+    font-size: 14px
+    font-weight: 400
+    line-height: 18px
+    margin-bottom: 4px
+    &_item
+      color: #36bde3
+      font-size: 44px
+      font-weight: 700
+      line-height: 1
+      letter-spacing: -1.1px
+      display: flex
+      align-items: flex-end
+    &_currency
+      color: #36bde3
+      font-size: 16px
+      font-weight: 500
+      line-height: 24px
+      letter-spacing: normal
+  &-old
+    color: $color1
+    font-size: 13px
+    font-weight: 400
+    line-height: 18px
+    margin-bottom: 15px
+    &_item
+      color: $color1
+      font-size: 28px
+      font-weight: 400
+      line-height: 1
+      letter-spacing: -0.6px
+      position: relative
+      display: flex
+      align-items: flex-end
+    &_currency
+      color: $color1
+      font-size: 16px
+      font-weight: 400
+      line-height: 24px
+      letter-spacing: normal
+.timer
+  display: flex
+  justify-content: space-between
+  margin: 15px 0 27px
+  &-col
+    &:first-child
+      border-right: 1px solid #d9ecf2
+      padding-right: 19px
+    &:last-child
+      border-left: 1px solid #d9ecf2
+      padding-left: 19px
+  &-number
+    border: 1px solid #d9ecf2
+    background-color: #fcfcfc
+    color: #1e1e1e
+    font-size: 26px
+    font-weight: 700
+    line-height: 42px
+    text-align: center
+    border-radius: 50%
+    width: 44px
+    height: 44px
+    margin: 0 auto 17px
+  &-text
+    color: #291d61
+    text-align: center
+    font-size: 18px
+    font-weight: 400
+    line-height: 1
+.symptoms
+  padding: 117px 0 179px
+  position: relative
+  overflow: hidden
+  &-bg
+    position: absolute
+    left: 37%
+    height: calc(100% - 126px - 179px)
+    z-index: -1
+  &-row
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin: 15px 0 0
+  &-item
+    display: flex
+    margin-bottom: 45px
+    &:last-child
+      margin: 40px 0 0 0
+
+  &-icon
+    width: 70px
+    height: 70px
+    margin-right: 49px
+  &-left
+    width: 53%
+  &-col:last-child
+    width: calc(100% - 70px - 49px)
+.line-active
+  height: 3px
+  background-color: #b9cfdd
+  width: 70px
+  margin-bottom: 30px
+.line-passive
+  height: 3px
+  background-color: #e5f2fa
+  width: 133px
+  margin-bottom: 30px
+.banner
+  background: url("../img/bg.jpg") no-repeat center bottom / cover
+  padding: 40px 0
+  &-row
+    display: flex
+    justify-content: space-between
+  &-side
+    position: relative
+  .text-28
+    margin: 43px 0 48px
+    color: #3b3944
+    text-align: left
+    font-weight: 400
+  &-box
+    display: flex
+    margin-top: -64px
+    margin-bottom: -123px
+    width: 520px
+    height: 447px
+    position: relative
+  &-img
+    &_one
+      position: absolute
+      left: -30px
+      top: 0
+      height: 330px
+    &_two
+      position: absolute
+      right: 30px
+      bottom: 0
+      height: 360px
+
+.composition
+  padding: 155px 0 0
+  &-side
+    width: 50%
+  &-row
+    display: flex
+    justify-content: space-between
+  &-img
+    width: 480px
+    margin: 55px auto 0
+.cards
+  display: flex
+  flex-wrap: wrap
+  padding-left: 15px
+
+.card
+  width: calc(50% - 34px)
+  margin-right: 68px
+  max-width: 232px
+  margin-bottom: 60px
+  .text-18
+    color: #8e8c95
+    font-weight: 400
+    line-height: 24px
+  &:nth-child(2n+2)
+    margin-right: 0
+  &-top
+    color: #2e2c35
+    font-size: 24px
+    font-weight: 700
+    border-bottom: 3px solid #e0e9ee
+    line-height: 50px
+    border-radius: 2px
+  &-img
+    margin: 35px 0 30px
+    height: 136px
+
